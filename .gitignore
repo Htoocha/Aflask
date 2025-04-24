@@ -1,0 +1,29 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.py[cod]
+
+# Temp files
+temp_*.mp4
+
+# Virtual environments
+venv/
+.env/
+.venv/
+env/
+ENV/
+
+# Editor/IDE configs
+.vscode/
+.idea/
+
+# Log and swap files
+*.log
+*.swp
+
+# OS/macOS/Windows system files
+.DS_Store
+Thumbs.db
+
+
