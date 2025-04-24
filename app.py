@@ -12,7 +12,7 @@ def index():
     if request.method == 'POST':
         url = request.form.get('url')
         try:
-            yt = YouTube(url)
+            yt = YouTube(url, use_po_token=True)
             title = yt.title.replace(" ", "_")
 
             # Try video in priority order
